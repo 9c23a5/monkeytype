@@ -8,6 +8,7 @@ declare namespace MonkeyTypes {
     | "login"
     | "profile"
     | "profileSearch"
+    | "emailHandler"
     | "404";
 
   interface LanguageGroup {

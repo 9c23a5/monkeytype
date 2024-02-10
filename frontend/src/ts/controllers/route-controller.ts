@@ -123,6 +123,12 @@ const routes: Route[] = [
       });
     },
   },
+  {
+    path: "/email-handler",
+    load: (): void => {
+      void PageController.change("emailHandler");
+    },
+  },
 ];
 
 export function navigate(
